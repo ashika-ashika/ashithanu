@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #fdffff;
+}
+
+/* HERO */
+.hero {
+    height: 100vh;
+    background-image: url("images/bg.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-box {
+    background: white;
+    padding: 30px;
+    border-radius: 25px;
+    width: 350px;
+    text-align: center;
+}
+
+/* COMMON SECTION */
+.section {
+    padding: 40px;
+    text-align: center;
+}
+
+.section img {
+    width: 300px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.section p {
+    font-size: 17px;
+    line-height: 1.6;
+}
+
+.pink {
+    background: #fff0f3;
+}
+
+button {
+    background: #e63946;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+#loveMsg {
+    margin-top: 15px;
+    color: #d62828;
+    font-weight: bold;
+}
